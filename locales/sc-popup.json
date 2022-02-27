@@ -1,0 +1,98 @@
+{
+    "store": {
+        "hk_i": {
+            "name": "港岛",
+            "list": [
+                {
+                    "location": "铜锣湾时代广场连卡佛",
+                    "tel": "(T)+852 2110 0390",
+                    "link_tel": "85221100390",
+                    "link": "https://www.bing.com/maps?osid=14d49938-41df-489d-af61-1e3e7e076705&cp=22.275875~114.185933&lvl=18&v=2&sV=2&form=S00027"
+                },
+                {
+                    "location": "铜锣湾崇光百货G/F",
+                    "tel": "(T)+852 2110 9628",
+                    "link_tel": "85221109628",
+                    "link": "https://www.bing.com/maps?osid=c81fe8f4-56b4-44c3-9ef2-0b5a054edcf4&cp=22.278169~114.183727&lvl=16&imgid=2fd2651d-ca15-42d1-9bec-131542d53053&v=2&sV=2&form=S00027"
+                },
+                {
+                    "location": "中环置地广场 Harvey Nichols",
+                    "tel": "(T)+852 3102 9378",
+                    "link_tel": "85231029378",
+                    "link": "https://www.bing.com/maps?osid=c3589870-6baf-40eb-8e06-3492bb129312&cp=22.278858~114.153176&lvl=16&v=2&sV=2&form=S00027"
+                }
+            ]
+        },
+        "kw": {
+            "name": "九龙",
+            "list": [
+                {
+                    "location": "尖沙咀海港城港威商场3楼3230号铺",
+                    "tel": "(T)+825 2110 1262",
+                    "link_tel": "82521101262",
+                    "link": "https://www.bing.com/maps?osid=372f01ed-3152-4972-a7ba-d79da862f8c5&cp=22.294929~114.163774&lvl=16&imgid=63bf1f47-9b00-4ff1-8eaa-13357a6b5c0b&v=2&sV=2&form=S00027"
+                },
+                {
+                    "location": "九龙深旺道28号V Walk 2楼129号舖",
+                    "tel": "(T)+852 2318 0778",
+                    "link_tel": "85223180778",
+                    "link": "https://www.bing.com/maps?osid=315c8282-6745-49c3-8ed7-4000504b327a&cp=22.330505~114.146069&lvl=16&imgid=b788456f-22b0-4282-874f-03ecda56d793&v=2&sV=2&form=S00027"
+                },
+                {
+                    "location": "尖沙咀广东道连卡佛",
+                    "tel": "(T)+852 2110 3959",
+                    "link_tel": "85221103959",
+                    "link": "https://www.bing.com/maps?osid=4cefb88b-c906-4f64-a94e-5b7e90b103dc&cp=22.292761~114.17294&lvl=18&imgid=96fb9efc-4fce-4a8c-8e36-813eaaf129b6&v=2&sV=2&form=S00027"
+                },
+                {
+                    "location": "旺角朗豪坊 LANGHAM BEAUTY L1",
+                    "tel": "(T)+852 2116 3377",
+                    "link_tel": "85221163377",
+                    "link": "https://www.bing.com/maps?osid=6e78a97d-c08c-4ea8-b258-ead8daa2acf4&cp=22.316036~114.169123&lvl=17&imgid=22e1756a-1f7c-4e33-b376-62fb91b64d90&v=2&sV=2&form=S00027"
+                }
+            ]
+        },
+        "new_t": {
+            "name": "新界",
+            "list": [
+                {
+                    "location": "屯门市广场一期1楼1118及1128号舖",
+                    "tel": "(T)+852 2110 6978",
+                    "link_tel": "85221106978",
+                    "link": "https://www.bing.com/maps?osid=9b094d4d-90b7-455a-b823-b29678dcb296&cp=22.389547~113.98015&lvl=17&v=2&sV=2&form=S00027"
+                },
+                {
+                    "location": "屯门V city M-V5 & V6",
+                    "tel": "(T)+852 2116 3380",
+                    "link_tel": "85221163380",
+                    "link": "https://www.bing.com/maps?osid=2bcfae7a-e81e-4fdd-bf49-09325e7bf30d&cp=22.3925~113.97699&lvl=18&imgid=1231369a-1647-41e8-aecc-0ffd6e386340&v=2&sV=2&form=S00027"
+                },
+                {
+                    "location": "上水广场2/F Promotion Area B1",
+                    "tel": "(T)+852 3104 1840",
+                    "link_tel": "85231041840",
+                    "link": "https://www.bing.com/maps?osid=8f24551f-6174-49f9-9a15-5aa12e0b4b1c&cp=22.503334~114.122478&lvl=16&imgid=4ab00245-ead4-43cb-9580-fe51edb3d654&v=2&sV=2&form=S00027"
+                },
+                {
+                    "location": "沙田正街18号新城市广场一期4楼486号舖",
+                    "tel": "(T)+852 2111 2327",
+                    "link_tel": "85221112327",
+                    "link": "https://www.bing.com/maps?osid=dc72b9b5-d2a5-4c2a-92e0-caecca47b213&cp=22.377223~114.191989&lvl=20&v=2&sV=2&form=S00027"
+                }
+            ]
+        },
+        "mac": {
+            "name": "澳门",
+            "list": [
+                {
+                    "location": "澳门苏亚利斯博士大马路90号新八佰伴",
+                    "tel": "(T)+853 2852 0393",
+                    "link_tel": "85328520393",
+                    "link": "https://www.bing.com/maps?osid=7102b1e5-2f52-47a3-8d88-d3d8ec3fa2b5&cp=22.190207~113.541339&lvl=20&v=2&sV=2&form=S00027"
+                }
+            ]
+        }
+    },
+    "search_placeholder": "探索...",
+    "search_notfound": "没有探索结果"
+}

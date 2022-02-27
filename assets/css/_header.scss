@@ -1,0 +1,259 @@
+.header {
+    z-index: 10;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    height: $header-lg;
+    @include media-breakpoint-down(lg) {
+        height: $header-sm;
+    }
+    @include media-breakpoint-down(md) {
+        height: $header-xs;
+    }
+    &__lang {
+        position: absolute;
+        top: 30px;
+        left: -9px;
+        width: auto;
+        background-color: $color-beige;
+        padding: 10px 10px 5px 10px;
+        text-align: center;
+    }
+    &__top { 
+        z-index: 4; 
+        position: relative; 
+        width: 100%; 
+        height: 100%;
+    }
+    &__left, &__right {
+        position: absolute; display: inline-block;
+        top: 50%; transform: translate(0, -50%);
+    }
+    &__left { 
+        left: 30px; 
+        text-align: left; 
+        @include media-breakpoint-down(md) {
+            left: 15px;
+        }
+    }
+    &__right {
+        right: 30px; 
+        text-align: right;
+        @include media-breakpoint-down(md) {
+            right: 10px;
+        }
+    }
+    &__logo {
+        position: absolute;
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        max-width: 180px;
+        width: 100%;
+        text-align: center;
+        img {
+            @include media-breakpoint-down(md) {
+                width: 140px;
+            }
+        }
+    }
+    &__deem {
+        pointer-events: initial;
+        position: fixed;
+        width: 100%; height: 100%; top: 0; left: 0;
+        transition: all 100ms linear;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 10;
+    }
+    &__btm {
+        position: relative;
+        padding-bottom: 10px;
+        z-index: 3;
+        text-transform: uppercase;
+        background-color: #fff;
+        // border-top: solid 1px white;
+        @include media-breakpoint-down(md) {
+            display: none;
+        }
+        &--menu ol li a.active { color: $color-main; }
+        &--menu ol li a:hover{
+            color: $color-main;
+        }
+    }
+    &__lv1 {
+        position: relative;
+        list-style: none;
+        text-align: center; 
+        letter-spacing: 1px;
+        padding-left: 0;
+        li {
+            position: relative;
+            display: inline-block; 
+            margin: 0 20px;
+            &:hover {
+                > .header__lv1--wrapper {
+                    pointer-events: auto;
+                    opacity: 1; 
+                    transition: all 300ms linear;
+                }
+            }
+        }
+        &--wrapper {
+            pointer-events: none;
+            position: absolute; 
+            left: 0; 
+            top: 100%; 
+            opacity: 0; 
+            transition: all 300ms linear;
+            padding: 10px 0 0;
+            // max-width: 500px;
+            background-color: #FFF;
+            box-shadow: 0px 0px 10px rgba(#000, 0.3);
+            .title {
+                white-space: nowrap;
+                text-align: left;
+                font-weight: bold;
+            }
+        }
+    }
+    &__lv2 {
+        // display: flex;
+        &--list {
+            display: block;
+            margin: 10px 15px 5px 0;
+            // white-space: nowrap;
+            min-width: 160px;
+            font-size: 12px;
+            text-transform: capitalize;
+        }
+    }
+    &__slide {
+        overflow-x: hidden;
+        position: fixed; top: 0; bottom: 0;
+        padding: 0 30px;
+        width: 100%; max-width: 420px;
+        background-color: #F7F4F0; color: #000;
+        z-index: 10;
+		font-size: 16px;
+        a { display: block; color: #000; }
+        &--top {
+            position: relative; margin-bottom: 10px;
+        }
+        &--close, &--back {
+            cursor: pointer;
+            position: absolute; 
+            transform: translate(0, -50%);
+        }
+		&--close { top: 100%; }
+        &--back  { 
+			bottom: 18px;
+			left: 0; 
+			width: 9px;
+		}
+        &--close { right: 0; }
+        &--below {
+            display: flex;
+            flex-flow: column;
+            height: 95vh;
+            text-transform: uppercase;
+			@include media-breakpoint-down(lg) {
+				// padding-bottom: 50px;
+			}
+            .break-line {
+                width: 100%;
+                border-top: solid 1px $color-main;
+                padding-bottom: 10px;
+                opacity: 0.3;
+            }
+            .company {
+                width: 100%;
+                height: 100%;
+                flex: 1;
+                display: flex;
+                justify-content: flex-end;
+                flex-direction: column;
+                color: $color-main;
+                font-size: $font-size *0.85;
+                text-transform: capitalize;
+            }
+        }
+        &--lang a {
+            display: inline-block;
+            color: $color-gray;
+        }
+        &--land {
+           .nuxt-link-exact-active .nuxt-link-active{
+               color: $color-main;
+           }
+        }
+        &--goin {
+            position: absolute; 
+            top: 50%;
+			right: 0; 
+            transform: translate(0,-50%);
+            width: 9px; 
+			// height: 20px;
+        }
+        &--submenu {
+            background-color: $color-beige;
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            right: 0; 
+            bottom: 0; 
+            transform: translate(-100%, 0);
+            padding: 0 30px;
+            width: 100%; 
+            height: calc(100vh + 30px);
+            transition: all 300ms linear;
+            h2 { padding-left: 30px; }
+            // >* { margin-bottom: 30px; }
+            &.active {
+                transition: all 300ms linear;
+                transform: translate(0, 0);
+            }
+            .list-item {
+                margin-top: 20px;
+                font-size: $font-size;
+            }
+            .sort_title {
+                text-transform: uppercase;
+            }
+        }
+        .slidemenu_list {
+            cursor: pointer;
+            position: relative;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            &:hover { text-decoration: underline; }
+            &.bottome_border { border-bottom: 1px solid $color-lightgray; }
+        }
+		.slide-title {
+            cursor: pointer;
+			padding: 20px 0 20px 20px;
+		}
+		.top-spacing {
+			position: relative;
+			width: 100%;
+			height: 40px;
+		}
+        .divider_v {
+            margin: 0 10px;
+            width: 1px;
+            height: 1em;
+            background-color: $color-gray;
+        }
+    }
+}
+
+.header__slide {
+    &::-webkit-scrollbar {
+        width: 0;  /* Remove scrollbar space */
+        background: transparent;  /* Optional: just make scrollbar invisible */
+    }
+    .nuxt-link-exact-active .nuxt-link-active{
+        color: $color-main;
+    }
+ }

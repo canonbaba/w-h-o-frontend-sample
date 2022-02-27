@@ -1,0 +1,100 @@
+$color-text: #000;
+$color-main: #A39161;
+$color-main-2: #FFF0DD;
+$color-error: red;
+$color-beige: #F7F4F0;
+$color-gray: #828282;
+$color-lightgray: #e0e0e0;
+$color-placeholder: #9C9C9C;
+
+$font-size: 14px;
+$light-bold: 400;
+
+$header-lg : 128px;
+$header-sm : 120px;
+$header-xs : 80px;
+
+a {
+    position: relative;
+    display: inline-block;
+    color: $color-text;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    &:hover, &:active, &:visited, &:focus { text-decoration: none; color: $color-text; }
+    // &:hover      { text-decoration: underline; }
+    &.hover_line {
+        &:after {
+            content: ''; position: absolute;
+            background-color: $color-text;
+            width: 0; height: 2px; bottom: -5px; left: 25%;
+        }
+        &:hover {
+            color: $color-text; text-decoration: none;
+            &:after {
+                width: 50%;
+                transition: all 100ms linear;
+            }
+        }
+        &.active { text-decoration: underline; }
+    }
+    &.no_deco:hover, &.no_deco:active, &.no_deco:visited, &.no_deco:focus { color: $color-text; text-decoration: none; }
+    &.underline { text-decoration: underline; }
+}
+img:focus, h1:focus, h2:focus, h3:focus, h4:focus, h5:focus { outline: none; }
+input:not([type="checkbox"]), select {
+    padding: 10px 0;
+    width: 100%; height: 40px;
+    border-radius: 0; border: none; border-bottom: 1px solid $color-lightgray;
+    appearance: none; outline: none;
+    background-color: #FFF;
+    &::placeholder {
+        color: $color-placeholder;
+    }
+    &.error {
+        color: $color-error;
+        border-bottom-color: $color-error;
+    }
+    // &:focus { background-color: #FFF; }
+    + .error, ~ .error {
+        margin-top: 5px; margin-bottom: 10px; padding: 0 10px;
+        color: $color-error;
+    }
+    @include media-breakpoint-down(sm) {
+        + .error, ~ .error {
+            padding: 0 10px;
+        }
+    }
+}
+input[type="checkbox"] {
+    &.error {
+        color: $color-error;
+        border-bottom-color: $color-error;
+    }
+    // &:focus { background-color: #FFF; }
+    + .error, ~ .error {
+        margin-top: 5px; margin-bottom: 10px; padding: 0 10px;
+        color: $color-error;
+    }
+    @include media-breakpoint-down(sm) {
+        + .error, ~ .error {
+            padding: 0 10px;
+        }
+    }
+}
+select {
+    background-image: url("~assets/images/dropdown.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 5px) center;
+    background-size: 8px auto;
+}
+
+.page {
+    margin-top: $header-lg + 45px;
+    // padding-bottom: 120px;
+    @include media-breakpoint-down(lg) {
+        margin-top: $header-lg + 37px;
+    }
+    @include media-breakpoint-down(md) {
+        margin-top: $header-xs;
+    }
+}

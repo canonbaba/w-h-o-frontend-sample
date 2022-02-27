@@ -1,0 +1,118 @@
+.footer {
+    background-color: $color-beige;
+    padding: 40px 40px 20px 40px;
+    text-transform: uppercase;
+    @include media-breakpoint-down(sm) {
+        padding: 30px 30px 10px 30px;
+    }
+    &-m {
+        &-Lcol {
+            display: inline-block;
+            @include media-breakpoint-down(sm) {
+                width: 49%;
+            }
+        }
+        &-Rcol {
+            width: 49%;
+            text-align: right;
+            display: none;
+            img {
+                padding-bottom: 2px;
+            }
+            @include media-breakpoint-down(sm) {
+                display: inline-block;
+            }
+        }
+        @include media-breakpoint-down(sm) {
+            display: block;
+        }
+    }
+}
+
+
+.footer > .flex-container {
+    display: flex;
+    @include media-breakpoint-down(sm) {
+        display: block;
+    }
+}
+.footer-col {
+    padding-left: 7vw;
+    @include media-breakpoint-down(lg) {
+        padding-left: 6vw;
+    }
+    @include media-breakpoint-down(md) {
+        padding-left: 4.5vw;
+    }
+    @include media-breakpoint-down(sm) {
+        padding-left: 0;
+    }
+}
+.footer-logo {
+    padding-right: 7vw;
+    img{
+        width: 60px;
+    }
+    @include media-breakpoint-down(lg) {
+        padding-right: 3vw;
+    }
+    @include media-breakpoint-down(md) {
+        padding-right: 6vw;
+    }
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+}
+.footer-option {
+    padding-bottom: 12px;
+    font-size: $font-size *0.9;
+    @include media-breakpoint-down(sm) {
+        padding-bottom: 18px;
+        font-size: $font-size *1.1;
+    }
+    &-b {
+        font-weight: 600;
+    }
+    &-followUs {
+        padding-bottom: 10px;
+    }
+}
+.footer-icons {
+    img {
+        width: 30px;
+        margin-right: 10px;
+        padding-bottom: 10px;
+    }
+}
+.footer-copyright {
+    border-top: solid 1px #D2CCBE;
+    padding-top: 10px;
+    margin-top: 60px;
+    text-align: right;
+    color: $color-main;
+    font-size: $font-size *0.9;
+    @include media-breakpoint-down(xs) {
+        text-align: left;
+        margin-top: 40px;
+        padding-bottom: 10px;
+        font-size: $font-size *0.85;
+    }
+}
+
+.to-top {
+    z-index: 10;
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+    width: 50px;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.3s linear;
+    @include media-breakpoint-down(xs) {
+        right: 15px;
+        bottom: 20px;
+    }
+    // &:hover {
+    //     opacity: 1;
+    // }
+}

@@ -1,0 +1,106 @@
+// rewirte bootstrap modal css
+.modal-dialog {
+    margin: 0.5rem auto !important;
+}
+
+// customize bootstrap modal *dialog-class="cus-modal-dialog-class"
+.cus-modal-dialog-class {
+    width: 100%;
+    .modal-content {
+        border: none;
+        border-radius: 0 !important;
+        margin: auto 15px !important;
+        width: 100%;
+    }
+    .modal-body {
+        position: relative;
+        padding: 0;
+        width: 100%;
+    }
+    .popup-close {
+        cursor: pointer;
+        position: absolute;
+        right: 25px;
+        top: 20px;
+        width: 20px;
+        height: 20px;
+        z-index: 10;
+        &:before, &:after {
+            position: absolute;
+            left: 50%;
+            content: ' ';
+            width: 100%;
+            height: 20px;
+            width: 1px;
+            background-color: $color-gray;
+        }
+        &:before {
+        transform: rotate(45deg);
+        }
+        &:after {
+        transform: rotate(-45deg);
+        }
+    }
+}
+
+// FOR SUBSCRIBE POPUP
+.subscribe-popup {
+    max-width: 1080px;
+    width: 100%;
+    .subscribe-popup-wrapper {
+        height: 525px;
+        @include media-breakpoint-down(md) {
+            height: auto;
+        }
+        .subscribe-popup-kv {
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-image: url("~assets/images/subscribe_kv-dc.png");
+            @include media-breakpoint-down(md) {
+                background-image: url("~assets/images/subscribe_kv-mo.png");
+            }
+            img {
+                opacity: 0;
+                width: 100%;
+                height: auto;
+                @include media-breakpoint-down(md) {
+                    // height: 25vw;
+                }
+            }
+        }
+        .subscribe-popup-form {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            padding: 0;
+            .content {
+                overflow:scroll
+            }
+        }
+    }
+    .error {
+        margin-top: 5px; margin-bottom: 10px; padding: 0 10px;
+        color: $color-error;
+    }
+}
+
+// Store Locatoe Popup
+.store-locator {
+    max-width: 780px;
+    width: 100%;
+    .store-locator-wrapper {
+        padding: 50px;
+        @include media-breakpoint-down(sm) {
+            padding: 50px 20px;
+        }
+        .store-locator-tel {
+            text-decoration: underline !important;
+        }
+    }
+    .search-ico {
+        width: 15px;
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "cate": {
+        "skincare": "Skincare",
+        "Skincare": "Skincare",
+        "face_care": "Face Care",
+        "Face Care": "Face Care",
+    
+        "Makeup Remover/Cleanser": "Makeup Remover / Cleanser",
+        "First Step Serum": "First Step Serum",
+        "Balancer/Toner": "Balancer / Toner",
+        "Emulsion": "Emulsion",
+        "Essence/Ampoule": "Essence / Ampoule",
+        "Eye Care": "Eye Care",
+        "Cream": "Cream",
+        "Mask": "Mask",
+        "Special Care": "Special Care",
+        "Sun Care": "Sun Care",
+    
+        "Bichup": "Bichup",
+        "Hwanyu": "Hwanyu",
+        "Cheonyuldan": "Cheonyuldan",
+        "Cheongidan": "Cheongidan",
+        "Jinyulhyang": "Jinyulhyang",
+        "Gongjinhyang": "Gongjinhyang",
+        "Gongjinhyang Soo": "Gongjinhyang Soo",
+        "Gongjinhyang Seol": "Gongjinhyang Seol",
+        "Gongjinhyang Kun": "Gongjinhyang Kun",
+        "Myunguihyang": "Myunguihyang",
+        "Yeheonbo": "Yeheonbo",
+    
+        "Anti-Aging": "Anti-Aging",
+        "Youthful Radiance": "Youthful Radiance",
+        "Hydration & Soothing": "Hydration & Soothing",
+        "Brightening/Spot Correction": "Brightening / Spot Correction",
+        "Fine Lines/Wrinkles": "Fine Lines / Wrinkles",
+        "Elasticity": "Elasticity",
+        "Nourishing": "Nourishing",
+        "Refining & Lifting": "Refining & Lifting",
+        "Sensitive Skin": "Sensitive Skin",
+        "UV Protection": "UV Protection",
+    
+        "body_care": "Body Care",
+        "Body Care": "Body Care",
+        "UV Protection, Fine Lines/Wrinkles": "UV Protection, Fine Lines / Wrinkles",
+        "WHOOSPA": "WHOOSPA",
+    
+        "makeup": "Makeup",
+        "Makeup": "Makeup",
+    
+        "Base": "Base",
+        "Cushion Foundation": "Cushion Foundation",
+        "Foundation": "Foundation",
+        "Powder": "Powder",
+        "Eye": "Eye",
+        "Lip": "Lip",
+    
+        "Gongjinhyang Mi": "Gongjinhyang Mi"
+    }
+}

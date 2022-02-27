@@ -1,0 +1,337 @@
+html, body {
+    font-size: $font-size;
+    font-family: 'Noto Sans TC', 'Noto Sans SC', sans-serif, 'Playfair Display', 'Noto Serif TC', 'Noto Serif SC', serif;
+    a, a:hover, a:visited, a:active, a:focus, a:focus-within, div, span, button, input, input:focus, select { outline: none !important; }
+}
+
+
+
+// Text Styles
+p {
+    font-size: $font-size;
+    font-family: 'Noto Sans TC', 'Noto Sans SC', sans-serif;
+    // @include media-breakpoint-down(lg) {
+    //     font-size: $font-size *0.9;
+    // }
+    // @include media-breakpoint-down(sm) {
+    //     font-size: $font-size *1;
+    // }
+}
+h1 {
+    font-family: 'Playfair Display', 'Noto Serif TC', 'Noto Serif SC', serif;
+    font-size: $font-size *2.3;
+    margin-bottom: 15px;
+    font-weight: 600;
+    @include media-breakpoint-down(lg) {
+        font-size: $font-size *2;
+    }
+    @include media-breakpoint-down(md) {
+        font-size: $font-size *1.8;
+    }
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size *1.5;
+    }
+}
+h2 {
+    font-family: 'Playfair Display', 'Noto Serif TC', 'Noto Serif SC', serif;
+    font-size: $font-size *1.7;
+    margin-bottom: 15px;
+    @include media-breakpoint-down(lg) {
+        font-size: $font-size *1.6;
+    }
+    @include media-breakpoint-down(md) {
+        font-size: $font-size *1.5;
+    }
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size *1.3;
+    }
+}
+h3 {
+    font-family: 'Playfair Display', 'Noto Serif TC', 'Noto Serif SC', serif;
+    font-size: $font-size *1.3;
+    margin-bottom: 15px;
+    font-weight: 700;
+    line-height: 1.3em;
+    @include media-breakpoint-down(md) {
+        font-size: $font-size *1.2;
+    }
+}
+.caption {
+    color: $color-main;
+    font-size: $font-size *1;
+    padding-bottom: 8px;
+}
+.darkText {
+    color: #000;
+}
+.whiteText {
+    color: white;
+}
+.grayText {
+    color: $color-gray;
+}
+.dropdownText {
+    color: $color-placeholder;
+}
+.brownText {
+    color: $color-main;
+}
+.text-center {
+    text-align: center;
+}
+
+
+
+// Global
+.containerPadding { padding: 0 10vw; }
+.full-width { width: 100%; }
+.no-padding { padding: 0; }
+.m-no-padding {    
+    @include media-breakpoint-down(xs) {
+        padding: 0;
+    }
+}
+.w-10 { width: 10%; }
+.w-20 { width: 20%; }
+.w-30 { width: 30%; }
+.w-40 { width: 40%; }
+.w-60 { width: 60%; }
+.w-70 { width: 70%; }
+.w-80 { width: 80%; }
+.w-90 { width: 90%; }
+.spacing { height: 100px; }
+.inline-block { display: inline-block; }
+.cursor { cursor: pointer; }
+.line {
+    width: 100%;
+    border-bottom: solid 1px $color-lightgray;
+}
+.my-50 { margin-top: 50px; margin-bottom: 50px; }
+.my-40 { margin-top: 40px; margin-bottom: 40px; }
+.my-30 { margin-top: 30px; margin-bottom: 30px; }
+.my-20 { margin-top: 20px; margin-bottom: 20px; }
+.my-15 { margin-top: 15px; margin-bottom: 15px; }
+.my-10 { margin-top: 10px; margin-bottom: 10px; }
+.mx-50 { margin-left: 50px; margin-right: 50px; }
+.mx-40 { margin-left: 40px; margin-right: 40px; }
+.mx-30 { margin-left: 30px; margin-right: 30px; }
+.mx-20 { margin-left: 20px; margin-right: 20px; }
+.mx-15 { margin-left: 15px; margin-right: 15px; }
+.mx-10 { margin-left: 10px; margin-right: 10px; }
+.mt-50 { margin-top: 50px; }
+.mt-30 { margin-top: 30px; }
+.mt-20 { margin-top: 20px; }
+.mt-15 { margin-top: 15px; }
+.mt-10 { margin-top: 10px; }
+.mb-50 { margin-bottom: 50px; }
+.mb-30 { margin-bottom: 30px; }
+.mb-20 { margin-bottom: 20px; }
+.mb-15 { margin-bottom: 15px; }
+.mb-10 { margin-bottom: 10px; }
+
+.py-50 { padding-top: 50px; padding-bottom: 50px; }
+.py-40 { padding-top: 40px; padding-bottom: 40px; }
+.py-30 { padding-top: 30px; padding-bottom: 30px; }
+.py-20 { padding-top: 20px; padding-bottom: 20px; }
+.py-15 { padding-top: 15px; padding-bottom: 15px; }
+.py-10 { padding-top: 10px; padding-bottom: 10px; }
+.px-50 { padding-left: 50px; padding-right: 50px; }
+.px-40 { padding-left: 40px; padding-right: 40px; }
+.px-30 { padding-left: 30px; padding-right: 30px; }
+.px-20 { padding-left: 20px; padding-right: 20px; }
+.px-15 { padding-left: 15px; padding-right: 15px; }
+.px-10 { padding-left: 10px; padding-right: 10px; }
+.pt-50 { padding-top: 50px; }
+.pt-30 { padding-top: 30px; }
+.pt-20 { padding-top: 20px; }
+.pt-15 { padding-top: 15px; }
+.pt-10 { padding-top: 10px; }
+.pb-50 { padding-bottom: 50px; }
+.pb-30 { padding-bottom: 30px; }
+.pb-20 { padding-bottom: 20px; }
+.pb-15 { padding-bottom: 15px; }
+.pb-10 { padding-bottom: 10px; }
+
+
+
+// Color
+.color-error { color: $color-error;}
+.color-main { color: $color-main;}
+.color-beige { color: $color-beige;}
+.color-gray { color: $color-gray;}
+.color-lightgray { color: $color-lightgray;}
+
+
+
+// Arrows
+.arrow {
+    border: solid $color-main;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.up-arrow {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+.down-arrow {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+
+
+// Buttons
+.btn-underline {
+    font-family: 'Noto Sans TC', 'Noto Sans SC', sans-serif;
+    padding-bottom: 5px;
+    border-bottom: solid 1px black;
+    display: inline-block;
+    font-weight: 600;
+    @include media-breakpoint-down(lg) {
+        font-size: $font-size *0.9;
+        padding-bottom: 4px;
+
+    }
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size *1;
+        padding-bottom: 5px;
+
+    }
+    &:hover {
+        text-decoration: none !important;
+    }
+    &.color-white { 
+        border-color: white !important;
+        color: white !important;
+    }
+}
+.btn-underline-whi {
+    padding-bottom: 5px;
+    border-bottom: solid 1px white;
+    display: inline-block;
+    font-weight: 600;
+    @include media-breakpoint-down(lg) {
+        font-size: $font-size *0.9;
+        padding-bottom: 4px;
+    }
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size *1;
+        padding-bottom: 5px;
+    }
+}
+.shopBtn {
+    width: 60px;
+    height: 50px;
+    border-radius: 30px 0px 0px 30px;
+    position: fixed;
+    right: 0;
+    top: 30%;
+    z-index: 9;
+    background-color: $color-main;
+    vertical-align: middle;
+    // @include media-breakpoint-down(sm) {
+    //     bottom: 80px;
+    // }
+    &-outer {
+        display: table;
+        height: 100%;
+    }
+    &-inner {
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 15px;
+        img {
+            width: 26px;
+        }
+    }
+}
+.cus-collapse-btn {
+    position: relative;
+    color: $color-gray;
+    &::after {
+        content: ' ';
+        position: absolute;
+        top: calc(50% +10px);
+        right: 0;
+        width: 15px;
+        height: 20px;
+        background-image: url("~assets/images/dropdown.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 15px auto;
+        transition: transform .3s linear;  
+        // @include media-breakpoint-down(sm) {
+        //     top: 2.1rem;
+        // }
+    }
+}
+.not-collapsed.cus-collapse-btn::after{
+    transform: rotate(180deg);
+    position: absolute;
+    right: 0;
+    top: calc(50% +10px);
+    height: 20px;
+    // @include media-breakpoint-down(sm) {
+    //     top: 2.1rem;
+    // }
+}
+.cus-collapse-btn.pt-5 {
+    padding-top: 2rem !important;
+}
+
+
+
+// Royal Club
+.royalclub {
+    text-align: center;
+    background-color: $color-beige;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    img {
+        width: 100%;
+    }
+    @include media-breakpoint-down(md) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    @include media-breakpoint-down(sm) {
+        padding: 0;
+    }
+}
+
+
+
+// Policy Page
+.policy {
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    &-title {
+        text-align: center;
+    }
+}
+
+
+// SWIPER
+.swiper-button-disabled {
+    opacity: 0 !important;
+}
+
+// Scroll bar
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $color-lightgray; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

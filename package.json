@@ -1,0 +1,46 @@
+{
+  "name": "sanctum-nuxt-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "npm i && npm run build && npm start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/gtm": "^2.4.0",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12",
+    "nuxt-facebook-pixel-module": "^1.5.0",
+    "nuxt-i18n": "^6.20.1",
+    "sweetalert2": "^10.15.5",
+    "swiper": "^5.4.5",
+    "vue": "^2.6.12",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-click-outside": "^1.1.0",
+    "vue-clipboard2": "^0.3.1",
+    "vue-gtag": "^1.16.1",
+    "vue-social-sharing": "^3.0.7",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-vue": "^7.6.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^10.1.1",
+    "webpack": "^4.44.0"
+  }
+}

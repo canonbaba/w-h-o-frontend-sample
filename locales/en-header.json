@@ -1,0 +1,271 @@
+{
+    "skincare": {
+        "face_care": {
+            "title": "FACE CARE",
+            "list": {
+                "categories": {
+                    "title": "By Categories",
+                    "search": "categories",
+                    "menu": [
+                        {
+                            "name": "Makeup Remover/Cleanser",
+                            "path": "1",
+                            "key": "Makeup Remover/Cleanser"
+                        },
+                        {
+                            "name": "First Step Serum",
+                            "path": "2",
+                            "key": "First Step Serum"
+                        },
+                        {
+                            "name": "Balancer/Toner",
+                            "path": "3",
+                            "key": "Balancer/Toner"
+                        },
+                        {
+                            "name": "Emulsion",
+                            "path": "3",
+                            "key": "Emulsion"
+                        },
+                        {
+                            "name": "Essence/Ampoule",
+                            "path": "3",
+                            "key": "Essence/Ampoule"
+                        },
+                        {
+                            "name": "Eye Care",
+                            "path": "3",
+                            "key": "Eye Care"
+                        },
+                        {
+                            "name": "Cream",
+                            "path": "3",
+                            "key": "Cream"
+                        },
+                        {
+                            "name": "Mask",
+                            "path": "3",
+                            "key": "Mask"
+                        },
+                        {
+                            "name": "Special Care",
+                            "path": "3",
+                            "key": "Special Care"
+                        },
+                        {
+                            "name": "Sun Care",
+                            "path": "3",
+                            "key": "Sun Care"
+                        }
+                    ]
+                },
+                "collection": {
+                    "title": "By Collection",
+                    "search": "collections",
+                    "menu": [
+                        {
+                            "name": "Bichup",
+                            "path": "",
+                            "key": "Bichup"
+                        },
+                        {
+                            "name": "Hwanyu",
+                            "path": "",
+                            "key": "Hwanyu"
+                        },
+                        {
+                            "name": "Cheonyuldan",
+                            "path": "",
+                            "key": "Cheonyuldan"
+                        },
+                        {
+                            "name": "Cheongidan",
+                            "path": "",
+                            "key": "Cheongidan"
+                        },
+                        {
+                            "name": "Jinyulhyang",
+                            "path": "",
+                            "key": "Jinyulhyang"
+                        },
+                        {
+                            "name": "Gongjinhyang",
+                            "path": "",
+                            "key": "Gongjinhyang"
+                        },
+                        {
+                            "name": "Gongjinhyang Soo",
+                            "path": "",
+                            "key": "Gongjinhyang Soo"
+                        },
+                        {
+                            "name": "Gongjinhyang Seol",
+                            "path": "",
+                            "key": "Gongjinhyang Seol"
+                        },
+                        {
+                            "name": "Gongjinhyang Kun",
+                            "path": "",
+                            "key": "Gongjinhyang Kun"
+                        },
+                        {
+                            "name": "Myunguihyang",
+                            "path": "",
+                            "key": "Myunguihyang"
+                        },
+                        {
+                            "name": "Yeheonbo",
+                            "path": "",
+                            "key": "Yeheonbo"
+                        }
+                    ]
+                },
+                "concern": {
+                    "title": "By Skin Concern",
+                    "search": "skin_concern",
+                    "menu": [
+                        {
+                            "name": "Anti-Aging",
+                            "path": "",
+                            "key": "Anti-Aging"
+                        },
+                        {
+                            "name": "Youthful Radiance",
+                            "path": "",
+                            "key": "Youthful Radiance"
+                        },
+                        {
+                            "name": "Hydration & Soothing",
+                            "path": "",
+                            "key": "Hydration & Soothing"
+                        },
+                        {
+                            "name": "Brightening/Spot Correction",
+                            "path": "",
+                            "key": "Brightening/Spot Correction"
+                        },
+                        {
+                            "name": "Fine Lines/Wrinkles",
+                            "path": "",
+                            "key": "Fine Lines/Wrinkles"
+                        },
+                        {
+                            "name": "Elasticity",
+                            "path": "",
+                            "key": "Elasticity"
+                        },
+                        {
+                            "name": "Nourishing",
+                            "path": "",
+                            "key": "Nourishing"
+                        },
+                        {
+                            "name": "Refining & Lifting",
+                            "path": "",
+                            "key": "Refining & Lifting"
+                        },
+                        {
+                            "name": "Sensitive Skin",
+                            "path": "",
+                            "key": "Sensitive Skin"
+                        },
+                        {
+                            "name": "UV Protection",
+                            "path": "",
+                            "key": "UV Protection"
+                        }
+                    ]
+                }
+            }
+        },
+        "body_care": {
+            "title": "BODY CARE",
+            "list": {
+                "collection": {
+                    "title": "",
+                    "search": "",
+                    "menu": []
+                },
+                "concern": {
+                    "title": "",
+                    "search": "",
+                    "menu": []
+                }
+            }
+        }
+    },
+    "makeup": {
+        "all": {
+            "title": "ALL",
+            "list": {
+                "categories": {
+                    "title": "By Categories",
+                    "search": "categories",
+                    "menu": [
+                        {
+                            "name": "Base",
+                            "path": "",
+                            "key": "Base"
+                        },
+                        {
+                            "name": "Cushion Foundation",
+                            "path": "",
+                            "key": "Cushion Foundation"
+                        },
+                        {
+                            "name": "Foundation",
+                            "path": "",
+                            "key": "Foundation"
+                        },
+                        {
+                            "name": "Powder",
+                            "path": "",
+                            "key": "Powder"
+                        },
+                        {
+                            "name": "Eye",
+                            "path": "",
+                            "key": "Eye"
+                        },
+                        {
+                            "name": "Lip",
+                            "path": "",
+                            "key": "Lip"
+                        }
+                    ]
+                },
+                "collection": {
+                    "title": "By Collection",
+                    "search": "collections",
+                    "menu": [
+                        {
+                            "name": "Gongjinhyang",
+                            "path": "",
+                            "key": "Gongjinhyang"
+                        },
+                        {
+                            "name": "Gongjinhyang Seol",
+                            "path": "",
+                            "key": "Gongjinhyang Seol"
+                        },
+                        {
+                            "name": "Gongjinhyang Mi",
+                            "path": "",
+                            "key": "Gongjinhyang Mi"
+                        },
+                        {
+                            "name": "Cheongidan",
+                            "path": "",
+                            "key": "Cheongidan"
+                        },
+                        {
+                            "name": "Cheonyuldan",
+                            "path": "",
+                            "key": "Cheonyuldan"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

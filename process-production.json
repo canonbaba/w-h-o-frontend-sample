@@ -1,0 +1,24 @@
+{
+    "apps": [
+        {
+            "name": "whoo-production",
+            "script": "npm",
+            "args": "run deploy",
+            "watch": [
+                "assets",
+                "components",
+                "config",
+                "layouts",
+                "locales",
+                "middleware",
+                "pages",
+                "plugins",
+                "static",
+                "store"
+            ],
+            "watch_options": {
+                "followSymlinks": false
+            }
+        }
+    ]
+}

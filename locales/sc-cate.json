@@ -1,0 +1,59 @@
+{
+    "cate": {
+        "skincare": "护肤",
+        "Skincare": "护肤",
+        "face_care": "面部护理",
+        "Face Care": "面部护理",
+    
+        "Makeup Remover/Cleanser": "卸妆 / 洁颜",
+        "First Step Serum": "肌底精华",
+        "Balancer/Toner": "养肤水",
+        "Emulsion": "乳液",
+        "Essence/Ampoule": "精华 / 安瓶",
+        "Eye Care": "眼部护理",
+        "Cream": "面霜",
+        "Mask": "面膜",
+        "Special Care": "特别护理",
+        "Sun Care": "防晒护理",
+    
+        "Bichup": "秘贴",
+        "Hwanyu": "还幼",
+        "Cheonyuldan": "天率丹",
+        "Cheongidan": "天气丹",
+        "Jinyulhyang": "津率享",
+        "Gongjinhyang": "拱辰享",
+        "Gongjinhyang Soo": "拱辰享 水",
+        "Gongjinhyang Seol": "拱辰享 雪",
+        "Gongjinhyang Kun": "拱辰享 君",
+        "Myunguihyang": "明义享",
+        "Yeheonbo": "礼献寳",
+    
+        "Anti-Aging": "抗老修护",
+        "Youthful Radiance": "活力透亮",
+        "Hydration & Soothing": "补湿舒缓",
+        "Brightening/Spot Correction": "亮白 / 淡斑",
+        "Fine Lines/Wrinkles": "细纹 / 皱纹",
+        "Elasticity": "弹力活肤",
+        "Nourishing": "滋养",
+        "Refining & Lifting": "紧致提拉",
+        "Sensitive Skin": "敏感肌肤",
+        "UV Protection": "防晒",
+    
+        "body_care": "身体护理",
+        "Body Care": "身体护理",
+        "UV Protection, Fine Lines/Wrinkles": "UV Protection, Fine Lines / Wrinkles",
+        "WHOOSPA": "WHOOSPA",
+        
+        "makeup": "彩妆",
+        "Makeup": "彩妆",
+    
+        "Base": "妆前乳",
+        "Cushion Foundation": "气垫粉底",
+        "Foundation": "粉底",
+        "Powder": "妆粉",
+        "Eye": "眼妆",
+        "Lip": "唇妆",
+    
+        "Gongjinhyang Mi": "拱辰享 美"
+    }
+}

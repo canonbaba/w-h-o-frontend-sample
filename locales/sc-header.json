@@ -1,0 +1,271 @@
+{
+    "skincare": {
+        "face_care": {
+            "title": "面部护理",
+            "list": {
+                "categories": {
+                    "title": "产品类别",
+                    "search": "categories",
+                    "menu": [
+                        {
+                            "name": "卸妆/洁颜",
+                            "path": "1",
+                            "key": "Makeup Remover/Cleanser"
+                        },
+                        {
+                            "name": "肌底精华",
+                            "path": "2",
+                            "key": "First Step Serum"
+                        },
+                        {
+                            "name": "养肤水",
+                            "path": "3",
+                            "key": "Balancer/Toner"
+                        },
+                        {
+                            "name": "乳液",
+                            "path": "3",
+                            "key": "Emulsion"
+                        },
+                        {
+                            "name": "精华/安瓶",
+                            "path": "3",
+                            "key": "Essence/Ampoule"
+                        },
+                        {
+                            "name": "眼部护理",
+                            "path": "3",
+                            "key": "Eye Care"
+                        },
+                        {
+                            "name": "面霜",
+                            "path": "3",
+                            "key": "Cream"
+                        },
+                        {
+                            "name": "面膜",
+                            "path": "3",
+                            "key": "Mask"
+                        },
+                        {
+                            "name": "特别护理",
+                            "path": "3",
+                            "key": "Special Care"
+                        },
+                        {
+                            "name": "防晒护理",
+                            "path": "3",
+                            "key": "Sun Care"
+                        }
+                    ]
+                },
+                "collection": {
+                    "title": "产品系列",
+                    "search": "collections",
+                    "menu": [
+                        {
+                            "name": "秘贴",
+                            "path": "",
+                            "key": "Bichup"
+                        },
+                        {
+                            "name": "还幼",
+                            "path": "",
+                            "key": "Hwanyu"
+                        },
+                        {
+                            "name": "天率丹",
+                            "path": "",
+                            "key": "Cheonyuldan"
+                        },
+                        {
+                            "name": "天气丹",
+                            "path": "",
+                            "key": "Cheongidan"
+                        },
+                        {
+                            "name": "津率享",
+                            "path": "",
+                            "key": "Jinyulhyang"
+                        },
+                        {
+                            "name": "拱辰享",
+                            "path": "",
+                            "key": "Gongjinhyang"
+                        },
+                        {
+                            "name": "拱辰享 水",
+                            "path": "",
+                            "key": "Gongjinhyang Soo"
+                        },
+                        {
+                            "name": "拱辰享 雪",
+                            "path": "",
+                            "key": "Gongjinhyang Seol"
+                        },
+                        {
+                            "name": "拱辰享 君",
+                            "path": "",
+                            "key": "Gongjinhyang Kun"
+                        },
+                        {
+                            "name": "明义享",
+                            "path": "",
+                            "key": "Myunguihyang"
+                        },
+                        {
+                            "name": "礼献寳",
+                            "path": "",
+                            "key": "Yeheonbo"
+                        }
+                    ]
+                },
+                "concern": {
+                    "title": "肌肤关注",
+                    "search": "skin_concern",
+                    "menu": [
+                        {
+                            "name": "抗老修护",
+                            "path": "",
+                            "key": "Anti-Aging"
+                        },
+                        {
+                            "name": "活力透亮",
+                            "path": "",
+                            "key": "Youthful Radiance"
+                        },
+                        {
+                            "name": "补湿舒缓",
+                            "path": "",
+                            "key": "Hydration & Soothing"
+                        },
+                        {
+                            "name": "亮白/淡斑",
+                            "path": "",
+                            "key": "Brightening/Spot Correction"
+                        },
+                        {
+                            "name": "细纹/皱纹",
+                            "path": "",
+                            "key": "Fine Lines/Wrinkles"
+                        },
+                        {
+                            "name": "弹力活肤",
+                            "path": "",
+                            "key": "Elasticity"
+                        },
+                        {
+                            "name": "滋养",
+                            "path": "",
+                            "key": "Nourishing"
+                        },
+                        {
+                            "name": "紧致提拉",
+                            "path": "",
+                            "key": "Refining & Lifting"
+                        },
+                        {
+                            "name": "敏感肌肤",
+                            "path": "",
+                            "key": "Sensitive Skin"
+                        },
+                        {
+                            "name": "防晒",
+                            "path": "",
+                            "key": "UV Protection"
+                        }
+                    ]
+                }
+            }
+        },
+        "body_care": {
+            "title": "身体护理",
+            "list": {
+                "collection": {
+                    "title": "",
+                    "search": "",
+                    "menu": []
+                },
+                "concern": {
+                    "title": "",
+                    "search": "",
+                    "menu": []
+                }
+            }
+        }
+    },
+    "makeup": {
+        "all": {
+            "title": "全部产品",
+            "list": {
+                "categories": {
+                    "title": "产品类别",
+                    "search": "categories",
+                    "menu": [
+                        {
+                            "name": "妆前乳",
+                            "path": "",
+                            "key": "Base"
+                        },
+                        {
+                            "name": "气垫粉底",
+                            "path": "",
+                            "key": "Cushion Foundation"
+                        },
+                        {
+                            "name": "粉底",
+                            "path": "",
+                            "key": "Foundation"
+                        },
+                        {
+                            "name": "妆粉",
+                            "path": "",
+                            "key": "Powder"
+                        },
+                        {
+                            "name": "眼妆",
+                            "path": "",
+                            "key": "Eye"
+                        },
+                        {
+                            "name": "唇妆",
+                            "path": "",
+                            "key": "Lip"
+                        }
+                    ]
+                },
+                "collection": {
+                    "title": "产品系列",
+                    "search": "collections",
+                    "menu": [
+                        {
+                            "name": "拱辰享",
+                            "path": "",
+                            "key": "Gongjinhyang"
+                        },
+                        {
+                            "name": "拱辰享 雪",
+                            "path": "",
+                            "key": "Gongjinhyang Seol"
+                        },
+                        {
+                            "name": "拱辰享 美",
+                            "path": "",
+                            "key": "Gongjinhyang Mi"
+                        },
+                        {
+                            "name": "天气丹",
+                            "path": "",
+                            "key": "Cheongidan"
+                        },
+                        {
+                            "name": "天率丹",
+                            "path": "",
+                            "key": "Cheonyuldan"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

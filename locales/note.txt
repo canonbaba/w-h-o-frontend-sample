@@ -1,0 +1,12 @@
+{
+    "location": "旺角朗豪坊BEAUTY AVENUE",
+    "tel": "(T)+852 2116 3377",
+    "link_tel": "85221163377",
+    "link": "https://www.bing.com/maps?osid=268a077f-28bd-483c-8dcb-378e7c2fe9ca&cp=22.317141~114.154982&lvl=15&imgid=2e17e060-12bf-4a1f-b5fe-85ebc7ef9105&v=2&sV=2&form=S00027"
+}
+{
+    "location": "BEAUTY AVENUE, Langham Place, Mong Kok",
+    "tel": "(T)+852 2116 3377",
+    "link_tel": "85221163377",
+    "link": "https://www.bing.com/maps?osid=268a077f-28bd-483c-8dcb-378e7c2fe9ca&cp=22.317141~114.154982&lvl=15&imgid=2e17e060-12bf-4a1f-b5fe-85ebc7ef9105&v=2&sV=2&form=S00027"
+}
